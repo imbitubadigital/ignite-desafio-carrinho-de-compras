@@ -14,6 +14,7 @@ const App = (): JSX.Element => {
       <CartProvider>
         <GlobalStyles />
         <Header />
+        <Routes />
         <ToastContainer autoClose={3000} />
       </CartProvider>
     </BrowserRouter>
